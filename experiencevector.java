@@ -10,3 +10,5 @@ public String preProcess(String sentence) {
         InputHomogenization(sentence).transform();
         }
         },file);
+        
+TokenizerFactory t = new UimaTokenizerFactory();

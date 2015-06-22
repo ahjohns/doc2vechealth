@@ -33,5 +33,13 @@
     <groupId>org.deeplearning4j</groupId>
     <artifactId>deeplearning4j-core</artifactId>
     <version>0.0.3.3.4.alpha2</version>
+  </dependency><dependency>
+    <groupId>org.deeplearning4j</groupId>
+    <artifactId>deeplearning4j-nlp</artifactId>
+    <version>0.0.3.3.4.alpha2</version>
+  </dependency><dependency>
+    <groupId>org.deeplearning4j</groupId>
+    <artifactId>spark</artifactId>
+    <version>0.0.3.3.4.alpha2</version>
   </dependency> </dependencies>
 </project>

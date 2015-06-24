@@ -12,3 +12,7 @@ public String preProcess(String sentence) {
         },file);
         
 TokenizerFactory t = new UimaTokenizerFactory();
+
+        Word2Vec vec = new Word2Vec.Builder().windowSize(5).layerSize(400).iterate(iter).tokenizerFactory(t).build();
+        vec.fit();
+
